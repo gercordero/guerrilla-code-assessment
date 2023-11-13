@@ -7,8 +7,6 @@ import { Properties } from '@/components/properties';
 type HomePageData = Awaited<ReturnType<typeof getStaticProps>>['props'];
 
 const Home: NextPage<HomePageData> = ({ properties }) => {
-  console.log(properties);
-
   return (
     <>
       <Hero />

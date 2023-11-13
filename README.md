@@ -5,36 +5,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Things to improve and comments
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+I dedicated a total of 3 hours and 40 minutes to almost completing this assessment. The only unfinished section is the final part before the footer. However, I prioritized the essential tasks, which involved implementing contentful data fetching using GraphQL and implementing client-side filtering. I also focused on developing the hero section and the overall layout.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+While working on this project, I made efforts to ensure the responsiveness of the page. Although there is some repetitive code that could be consolidated, time constraints prevented me from addressing this issue. Similarly, certain theming values could have been moved to the theme configuration file of Tailwind CSS instead of being hardcoded and duplicated throughout the codebase. Additionally, I would have liked to include a type generator for GraphQL to generate types for all the data queries made to contentful.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Overall, I did not encounter any significant difficulties during the exercise, except for the aforementioned minor issues that I had to prioritize in order to optimize my time and deliver as many functionalities as possible. I hope you appreciate my approach to this assessment. If you have any questions or concerns, please feel free to reach out to me. I am more than happy to provide further clarification. 😊
